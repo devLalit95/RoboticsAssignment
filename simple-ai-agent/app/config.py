@@ -14,6 +14,7 @@ class Settings(BaseSettings):
     )
 
     gemini_api_key: str = Field(..., description="Gemini API key for LLM")
+    gemini_model: str = Field(default="gemini-1.5-pro", description="Gemini model name")
 
 
 settings = Settings()

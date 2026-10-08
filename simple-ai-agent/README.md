@@ -27,7 +27,7 @@ This project implements a simple AI agent that can:
 
 **Technology Stack:**
 - Python 3.11+
-- Gemini API (LLM)
+- Gemini API (LLM - using gemini-1.5-pro model)
 - LangChain/LangGraph (Agent framework)
 - FastAPI (REST API)
 - Pydantic (Data validation)

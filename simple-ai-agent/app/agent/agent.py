@@ -37,7 +37,7 @@ class Agent:
         # Initialize LLM
         try:
             self.llm = ChatGoogleGenerativeAI(
-                model="gemini-1.5-flash",
+                model=settings.gemini_model,
                 google_api_key=settings.gemini_api_key,
                 temperature=0.7,
             )
